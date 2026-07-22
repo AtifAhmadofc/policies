@@ -3,353 +3,486 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Spndlly – Privacy Policy</title>
-
-<meta name="description" content="Privacy Policy for Spndlly – Expense & Budget Tracker">
-
+<title>Privacy Policy · Spndlly – Expense & Budget Tracker</title>
+<meta name="description" content="Privacy Policy for Spndlly – Expense & Budget Tracker, an offline-first Android app by Atif Ahmad. Learn how your financial data is stored, secured, and never uploaded to any server.">
+<meta name="robots" content="index, follow">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-
 <style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
+  :root {
+    --primary: #0F766E;
+    --secondary: #14B8A6;
+    --accent: #7DD3FC;
+    --bg: #F8FAFC;
+    --surface: #FFFFFF;
+    --text: #1F2937;
+    --text-secondary: #6B7280;
+    --border: #E5E7EB;
+  }
 
-body{
-    font-family:'Inter',sans-serif;
-    background:#f5f7fb;
-    color:#333;
-    line-height:1.7;
-}
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
 
-header{
-    background:linear-gradient(135deg,#16a34a,#22c55e);
-    color:#fff;
-    text-align:center;
-    padding:70px 20px;
-}
+  html {
+    scroll-behavior: smooth;
+  }
 
-header h1{
-    font-size:42px;
-    font-weight:800;
-}
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background-color: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+  }
 
-header p{
-    margin-top:10px;
-    font-size:18px;
-    opacity:.95;
-}
+  a {
+    color: var(--primary);
+    text-decoration: underline;
+    text-decoration-color: var(--accent);
+    text-underline-offset: 3px;
+  }
 
-.container{
-    max-width:900px;
-    margin:auto;
-    padding:40px 20px;
-}
+  a:hover {
+    color: var(--secondary);
+  }
 
-.card{
-    background:#fff;
-    border-radius:16px;
-    padding:28px;
-    margin-bottom:24px;
-    box-shadow:0 8px 24px rgba(0,0,0,.06);
-}
+  a:focus-visible,
+  button:focus-visible {
+    outline: 2px solid var(--secondary);
+    outline-offset: 2px;
+  }
 
-h2{
-    color:#16a34a;
-    margin-bottom:15px;
-    font-size:24px;
-}
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
 
-ul{
-    padding-left:22px;
-}
+  /* Header / Hero */
+  header.hero {
+    background: linear-gradient(160deg, #0F766E 0%, #14B8A6 100%);
+    color: #FFFFFF;
+    padding: 96px 24px 88px;
+    text-align: center;
+  }
 
-li{
-    margin-bottom:8px;
-}
+  .hero-icon {
+    font-size: 40px;
+    display: block;
+    margin-bottom: 20px;
+  }
 
-a{
-    color:#16a34a;
-    text-decoration:none;
-}
+  .hero-eyebrow {
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.85);
+    margin-bottom: 14px;
+  }
 
-a:hover{
-    text-decoration:underline;
-}
+  h1 {
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    margin-bottom: 16px;
+  }
 
-footer{
-    text-align:center;
-    color:#777;
-    padding:40px 20px;
-    font-size:14px;
-}
+  .hero-tagline {
+    font-size: 17px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.92);
+    margin-bottom: 28px;
+  }
 
-@media(max-width:768px){
+  .hero-meta {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    color: #FFFFFF;
+    background: rgba(255, 255, 255, 0.14);
+    border: 1px solid rgba(255, 255, 255, 0.28);
+    padding: 8px 18px;
+    border-radius: 999px;
+  }
 
-header{
-    padding:55px 20px;
-}
+  /* Main content */
+  main {
+    padding: 64px 0 40px;
+  }
 
-header h1{
-    font-size:32px;
-}
+  section.card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04), 0 8px 24px rgba(15, 23, 42, 0.04);
+    padding: 40px;
+    margin-bottom: 28px;
+  }
 
-.card{
-    padding:22px;
-}
+  section.card:first-of-type {
+    margin-top: 0;
+  }
 
-h2{
-    font-size:22px;
-}
+  .section-number {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--primary);
+    background: rgba(15, 118, 110, 0.08);
+    padding: 4px 12px;
+    border-radius: 999px;
+    margin-bottom: 16px;
+    letter-spacing: 0.03em;
+  }
 
-}
+  h2 {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    margin-bottom: 16px;
+    color: var(--text);
+  }
+
+  h3 {
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 24px;
+    margin-bottom: 8px;
+    color: var(--text);
+  }
+
+  p {
+    color: var(--text);
+    margin-bottom: 14px;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+
+  ul {
+    padding-left: 22px;
+    margin-bottom: 14px;
+  }
+
+  ul:last-child {
+    margin-bottom: 0;
+  }
+
+  li {
+    margin-bottom: 8px;
+    color: var(--text);
+  }
+
+  li:last-child {
+    margin-bottom: 0;
+  }
+
+  .muted {
+    color: var(--text-secondary);
+  }
+
+  .note {
+    background: rgba(125, 211, 252, 0.12);
+    border: 1px solid rgba(125, 211, 252, 0.4);
+    border-radius: 12px;
+    padding: 16px 20px;
+    font-size: 15px;
+    color: var(--text);
+    margin-top: 16px;
+  }
+
+  .note strong {
+    color: var(--primary);
+  }
+
+  .permission-list {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin-top: 20px;
+  }
+
+  .permission-item {
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 18px 20px;
+  }
+
+  .permission-item .permission-name {
+    font-weight: 700;
+    color: var(--primary);
+    font-size: 15px;
+    margin-bottom: 6px;
+    display: block;
+  }
+
+  .contact-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    margin-top: 20px;
+  }
+
+  .contact-field .label {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    margin-bottom: 4px;
+    display: block;
+  }
+
+  .contact-field .value {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--text);
+  }
+
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 48px 24px 64px;
+    border-top: 1px solid var(--border);
+    margin-top: 24px;
+  }
+
+  footer p {
+    font-size: 14px;
+    color: var(--text-secondary);
+    margin-bottom: 4px;
+  }
+
+  footer p:last-child {
+    margin-bottom: 0;
+  }
+
+  footer .app-name {
+    font-weight: 600;
+    color: var(--text);
+  }
+
+  /* Responsive */
+  @media (max-width: 640px) {
+    header.hero {
+      padding: 64px 20px 56px;
+    }
+
+    h1 {
+      font-size: 30px;
+    }
+
+    .hero-tagline {
+      font-size: 15px;
+    }
+
+    main {
+      padding: 40px 0 24px;
+    }
+
+    section.card {
+      padding: 26px 22px;
+      border-radius: 14px;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      font-size: 20px;
+    }
+
+    .container {
+      padding: 0 16px;
+    }
+
+    .contact-box {
+      gap: 20px;
+    }
+  }
 </style>
-
 </head>
-
 <body>
 
-<header>
-
-<h1>🔒 Privacy Policy</h1>
-
-<p><strong>Spndlly – Expense & Budget Tracker</strong></p>
-
-<p>Last Updated: July 22, 2026</p>
-
+<header class="hero">
+  <div class="container">
+    <span class="hero-icon" role="img" aria-label="Lock">🔒</span>
+    <p class="hero-eyebrow">Privacy Policy</p>
+    <h1>Spndlly – Expense &amp; Budget Tracker</h1>
+    <p class="hero-tagline">Simple • Secure • Offline First</p>
+    <span class="hero-meta">Last Updated: July 22, 2026</span>
+  </div>
 </header>
 
-<div class="container">
-
-<div class="card">
-
-<h2>Welcome</h2>
-
-<p>
-Thank you for using <strong>Spndlly – Expense & Budget Tracker</strong>.
-Your privacy is important to us. This Privacy Policy explains what information
-our app collects, how it is used, and your rights regarding your information.
-</p>
-
-</div>
-
-<div class="card">
-
-<h2>Information We Collect</h2>
-
-<p>Spndlly allows you to manage your personal finances by recording:</p>
-
-<ul>
-<li>Income</li>
-<li>Expenses</li>
-<li>Budgets</li>
-<li>Accounts</li>
-<li>Bills</li>
-<li>Categories</li>
-<li>Reports</li>
-<li>Recurring Transactions</li>
-</ul>
-
-<p style="margin-top:15px;">
-All of this information is stored locally on your device.
-We do not upload your financial records to our servers.
-</p>
-
-</div>
-
-<div class="card">
-
-<h2>Permissions</h2>
-
-<ul>
-<li><strong>Notifications</strong> – Used for bill reminders and budget alerts.</li>
-
-<li><strong>Storage</strong> – Used when exporting or importing your data.</li>
-
-<li><strong>Camera (Optional)</strong> – May be used in future versions for receipt scanning.</li>
-
-</ul>
-
-</div>
-
-<div class="card">
-
-<h2>Advertising</h2>
-
-<p>
-Spndlly uses Google AdMob to display advertisements.
-Google may collect information such as your Advertising ID,
-device information, app interactions, and approximate location
-to provide relevant ads.
-</p>
-
-<p style="margin-top:15px;">
-Learn more:
-<br>
-<a href="https://policies.google.com/technologies/ads">
-https://policies.google.com/technologies/ads
-</a>
-</p>
-
-</div>
-
-<div class="card">
-
-<h2>Analytics</h2>
-
-<p>
-To improve stability and performance, anonymous diagnostic information may be collected,
-including crash reports, app version, Android version, and device model.
-No financial records or personally identifiable financial information are collected.
-</p>
-
-</div>
-
-<div class="card">
-
-<h2>How We Use Information</h2>
-
-<ul>
-
-<li>Provide app functionality</li>
-
-<li>Improve user experience</li>
-
-<li>Display advertisements</li>
-
-<li>Fix bugs</li>
-
-<li>Improve app performance</li>
-
-<li>Maintain security</li>
-
-</ul>
-
-</div>
-
-<div class="card">
-
-<h2>Data Storage</h2>
-
-<p>
-Your financial information remains stored on your device unless you choose
-to export or back up your data.
-We do not store your expense history or financial records on our servers.
-</p>
-
-</div>
-
-<div class="card">
-
-<h2>Third-Party Services</h2>
-
-<ul>
-
-<li>Google AdMob</li>
-
-<li>Google Play Services</li>
-
-<li>Firebase Crashlytics (if enabled)</li>
-
-<li>Firebase Analytics (if enabled)</li>
-
-<li>Google Play Billing (if applicable)</li>
-
-</ul>
-
-<p style="margin-top:15px;">
-Google Privacy Policy:
-<br>
-<a href="https://policies.google.com/privacy">
-https://policies.google.com/privacy
-</a>
-</p>
-
-</div>
-
-<div class="card">
-
-<h2>Children's Privacy</h2>
-
-<p>
-Spndlly is not intended for children under the age of 13.
-We do not knowingly collect personal information from children.
-</p>
-
-</div>
-
-<div class="card">
-
-<h2>Data Security</h2>
-
-<p>
-We take reasonable measures to protect your information.
-However, no electronic storage or transmission method is completely secure,
-and we cannot guarantee absolute security.
-</p>
-
-</div>
-
-<div class="card">
-
-<h2>Your Rights</h2>
-
-<p>
-Because your financial information is stored locally on your device,
-you can delete your information at any time by:
-</p>
-
-<ul>
-
-<li>Deleting transactions inside the app</li>
-
-<li>Clearing app storage</li>
-
-<li>Uninstalling the application</li>
-
-</ul>
-
-</div>
-
-<div class="card">
-
-<h2>Changes to This Policy</h2>
-
-<p>
-We may update this Privacy Policy from time to time.
-Any changes will be published on this page with an updated revision date.
-</p>
-
-</div>
-
-<div class="card">
-
-<h2>Contact Us</h2>
-
-<p>
-If you have any questions regarding this Privacy Policy, please contact:
-</p>
-
-<br>
-
-<p><strong>Developer</strong></p>
-
-<p>Atif Ahmad</p>
-
-<p>Email: <strong>ahmadatif8000@gmail.com</strong></p>
-
-</div>
-
-</div>
+<main class="container">
+
+  <section class="card" id="welcome" aria-labelledby="welcome-heading">
+    <span class="section-number">01</span>
+    <h2 id="welcome-heading">Welcome</h2>
+    <p>Thank you for using Spndlly – Expense &amp; Budget Tracker ("Spndlly", "the app", "we", "us"). This Privacy Policy explains what information the app handles, how it is used, and the choices you have. We built Spndlly to be offline-first, meaning your financial data belongs to you and stays on your device by default.</p>
+    <p>By using Spndlly, you agree to the practices described in this policy. If you do not agree, please discontinue use of the app.</p>
+  </section>
+
+  <section class="card" id="information-we-collect" aria-labelledby="info-heading">
+    <span class="section-number">02</span>
+    <h2 id="info-heading">Information We Collect</h2>
+    <p>Spndlly allows you to record and organize your personal finances. The data you choose to enter may include:</p>
+    <ul>
+      <li>Income entries</li>
+      <li>Expenses</li>
+      <li>Budgets</li>
+      <li>Bills</li>
+      <li>Accounts</li>
+      <li>Categories</li>
+      <li>Notes</li>
+      <li>Reports</li>
+      <li>Recurring transactions</li>
+    </ul>
+    <div class="note">
+      <strong>Your financial information stays on your device.</strong> All of the data listed above is stored locally on your Android device and is not transmitted to our servers or any third party by us.
+    </div>
+  </section>
+
+  <section class="card" id="permissions" aria-labelledby="permissions-heading">
+    <span class="section-number">03</span>
+    <h2 id="permissions-heading">Permissions</h2>
+    <p>Spndlly requests a limited set of device permissions, each used only for its stated purpose:</p>
+    <div class="permission-list">
+      <div class="permission-item">
+        <span class="permission-name">Notifications</span>
+        <span>Used to remind you about upcoming bills, recurring transactions, and budget alerts.</span>
+      </div>
+      <div class="permission-item">
+        <span class="permission-name">Storage</span>
+        <span>Used to save local backups, export reports, or attach files related to your financial records.</span>
+      </div>
+      <div class="permission-item">
+        <span class="permission-name">Camera (Optional)</span>
+        <span>Reserved for potential future features, such as scanning receipts. This permission is not required for the app's core functionality and will only be requested if you choose to use such a feature.</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="card" id="advertising" aria-labelledby="advertising-heading">
+    <span class="section-number">04</span>
+    <h2 id="advertising-heading">Advertising</h2>
+    <p>Spndlly uses <strong>Google AdMob</strong> to display advertisements that help keep the app free to use. To deliver relevant and functioning ads, Google may collect:</p>
+    <ul>
+      <li>Advertising ID</li>
+      <li>Device information</li>
+      <li>App interactions</li>
+      <li>Approximate location</li>
+    </ul>
+    <p>This information is collected and processed by Google in accordance with its own policies. For more details, please review Google's Ads Policy at <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer">policies.google.com/technologies/ads</a>.</p>
+  </section>
+
+  <section class="card" id="analytics" aria-labelledby="analytics-heading">
+    <span class="section-number">05</span>
+    <h2 id="analytics-heading">Analytics</h2>
+    <p>Spndlly may optionally use <strong>Firebase Analytics</strong> and <strong>Firebase Crashlytics</strong> to help us understand app performance and fix issues. These tools may collect anonymous diagnostic information, such as:</p>
+    <ul>
+      <li>Device model</li>
+      <li>Android version</li>
+      <li>App version</li>
+      <li>Crash reports</li>
+    </ul>
+    <div class="note">
+      <strong>Your financial data is never uploaded for analytics.</strong> Income, expenses, budgets, accounts, and all other financial entries you create are excluded from analytics and crash reporting.
+    </div>
+  </section>
+
+  <section class="card" id="how-we-use-information" aria-labelledby="usage-heading">
+    <span class="section-number">06</span>
+    <h2 id="usage-heading">How We Use Information</h2>
+    <p>Any information collected as described above is used to:</p>
+    <ul>
+      <li>Improve the app</li>
+      <li>Display advertisements</li>
+      <li>Maintain security</li>
+      <li>Improve performance</li>
+      <li>Fix bugs</li>
+      <li>Provide and support app features</li>
+    </ul>
+  </section>
+
+  <section class="card" id="data-storage" aria-labelledby="storage-heading">
+    <span class="section-number">07</span>
+    <h2 id="storage-heading">Data Storage</h2>
+    <p>All financial information you enter into Spndlly stays on your device. Nothing you record — income, expenses, budgets, bills, accounts, categories, notes, reports, or recurring transactions — is uploaded to our servers.</p>
+    <p>You are always in control of your own data. If you delete the app or clear its storage, this locally stored information is permanently removed.</p>
+  </section>
+
+  <section class="card" id="third-party-services" aria-labelledby="third-party-heading">
+    <span class="section-number">08</span>
+    <h2 id="third-party-heading">Third-Party Services</h2>
+    <p>Spndlly relies on the following third-party services to operate:</p>
+    <ul>
+      <li>Google Play Services</li>
+      <li>Google AdMob</li>
+      <li>Firebase Analytics</li>
+      <li>Firebase Crashlytics</li>
+      <li>Google Play Billing (if applicable, for in-app purchases)</li>
+    </ul>
+    <p>These services operate under their own privacy policies. You can review Google's Privacy Policy at <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">policies.google.com/privacy</a>.</p>
+  </section>
+
+  <section class="card" id="childrens-privacy" aria-labelledby="children-heading">
+    <span class="section-number">09</span>
+    <h2 id="children-heading">Children's Privacy</h2>
+    <p>Spndlly is not intended for use by children under the age of 13. We do not knowingly collect personal information from children. If you believe a child has provided information through the app, please contact us so we can address the matter.</p>
+  </section>
+
+  <section class="card" id="data-security" aria-labelledby="security-heading">
+    <span class="section-number">10</span>
+    <h2 id="security-heading">Data Security</h2>
+    <p>We follow reasonable practices to protect the data handled by Spndlly, including keeping financial information stored locally on your device rather than on external servers. However, please note that no method of electronic storage or transmission is 100% secure, and we cannot guarantee absolute security.</p>
+  </section>
+
+  <section class="card" id="your-rights" aria-labelledby="rights-heading">
+    <span class="section-number">11</span>
+    <h2 id="rights-heading">Your Rights</h2>
+    <p>Because your financial data is stored locally, you have direct control over it at all times. You can:</p>
+    <ul>
+      <li>Delete individual entries or records within the app</li>
+      <li>Export your data for backup or personal use</li>
+      <li>Clear the app's local storage</li>
+      <li>Uninstall the app, which removes locally stored data from your device</li>
+    </ul>
+  </section>
+
+  <section class="card" id="changes-to-this-policy" aria-labelledby="changes-heading">
+    <span class="section-number">12</span>
+    <h2 id="changes-heading">Changes To This Policy</h2>
+    <p>We may update this Privacy Policy from time to time to reflect changes in our practices or for legal and regulatory reasons. Any updates will be posted on this page along with a revised "Last Updated" date. We encourage you to review this page periodically.</p>
+  </section>
+
+  <section class="card" id="contact" aria-labelledby="contact-heading">
+    <span class="section-number">13</span>
+    <h2 id="contact-heading">Contact</h2>
+    <p>If you have any questions or concerns about this Privacy Policy, please reach out to us.</p>
+    <div class="contact-box">
+      <div class="contact-field">
+        <span class="label">Developer</span>
+        <span class="value">Atif Ahmad</span>
+      </div>
+      <div class="contact-field">
+        <span class="label">Email</span>
+        <span class="value"><a href="mailto:ahmadatif8000@gmail.com">ahmadatif8000@gmail.com</a></span>
+      </div>
+    </div>
+  </section>
+
+</main>
 
 <footer>
-
-© 2026 Spndlly – Expense & Budget Tracker. All Rights Reserved.
-
+  <p>© 2026 <span class="app-name">Spndlly – Expense &amp; Budget Tracker</span></p>
+  <p>All Rights Reserved.</p>
 </footer>
 
 </body>
